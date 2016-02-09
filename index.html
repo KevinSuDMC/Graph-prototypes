@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/Chart.min.js"></script>
+
+
+</head>
+<body>
+	<div class="header">
+	</div>
+
+	<div class="graph">
+
+		<div class="col">
+			<div id="salary">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="investment">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="interest">
+			</div>
+	    </div>
+
+	</div>
+
+	<div class="input-bar">
+
+  				Salary: <input type="text" name="salaryInput">
+  						<input type="button" id='submit1' value="submit">
+  						<br> 		
+  					
+
+  				Investment: <input type="text" name="investmentInput">
+  				 		 	<input type="button" id='submit2' value="submit">
+							<br>
+
+  				Interest: <input type="text" name="interestInput">
+  				  		  <input type="button" id='submit3' value="submit">
+							<br><br>
+
+	</div>
+
+
+
+	<div class="graph2">
+
+		<div class="col">
+			<div id="salary2">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="investment2">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="interest2">
+			</div>
+	    </div>
+
+	</div>
+
+	<div class="input-bar">
+
+  				Salary:<input type="range" min="0" max="300" value="5" id="salarySlide1">
+  					   <span id="currentValue1">0</span>
+  					   <br> 		
+  					
+
+  				Investment:<input type="range" min="0" max="300" value="5" id="salarySlide2">
+  						   <span id="currentValue2">0</span>
+						   <br>
+
+  				Interest: <input type="range" min="0" max="300" value="5" id="salarySlide3">
+  				  		  <span id="currentValue3">0</span>
+  						  <br>
+	</div>
+
+
+	<div class="graph3">
+
+		<div class="col">
+			<div id="salary3">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="investment3">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="interest3">
+			</div>
+	    </div>
+
+	</div>
+
+	<div class="input-bar">
+
+  				Salary:<input type="range" min="0" max="300" value="0" id="salarySlide11">
+  					   <span id="currentValue11">0</span>
+  					   <br> 		
+  					
+
+  				Investment:<input type="range" min="0" max="300" value="0" id="salarySlide12">
+  						   <span id="currentValue12">0</span>
+						   <br>
+
+  				Interest: <input type="range" min="0" max="300" value="0" id="salarySlide13">
+  				  		  <span id="currentValue13">0</span>
+  						  <br>
+	</div>
+
+
+	</div>
+
+
+	<div class="graph4">
+
+		<div class="col">
+			<div id="sustainability">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="risk">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="return">
+			</div>
+	    </div>
+
+    <div class="descript-bar">
+
+    	<div class="descrip">
+				<p>sustainability<p>
+		</div>
+		<div class="descrip">
+				<p>safety<p>
+		</div>
+		<div class="descrip">
+				<p>interest<p>
+		</div>
+    </div>
+
+	<div class="input-bar">
+
+		<button class="packages" id="eco"> ECO PLAN</button>
+		<button class="packages" id="safe">SAFE PLAN</button>
+		<button class="packages" id="risky"> PROFIT PLAN</button>
+
+
+
+	</div>
+
+	</div>
+
+	<div class="graph5">
+
+		<div class="col">
+			<div id="sustainability2">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="risk2">
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="return2">
+			</div>
+	    </div>
+
+    <div class="descript-bar">
+
+    	<div class="descrip">
+				<p>sustainability<p>
+		</div>
+		<div class="descrip">
+				<p>safety<p>
+		</div>
+		<div class="descrip">
+				<p>interest<p>
+		</div>
+    </div>
+
+	<div class="input-bar">
+
+		<button class="packages" id="eco2"> ECO PLAN</button>
+		<button class="packages" id="safe2">SAFE PLAN</button>
+		<button class="packages" id="risky2"> PROFIT PLAN</button>
+
+
+
+	</div>
+
+	</div>
+
+<div class="graph6">
+	<canvas id="myChart" width="400" height="400">
+	</canvas>
+</div>	
+
+<div class="graph7">
+	<canvas id="myChart2" width="400" height="400">
+	</canvas>
+	<div class="input-bar">
+
+  				Salary:<input type="range" min="0" max="300" value="0" id="salarySlide20">
+  					   <span id="currentValue20">0</span>
+  					   <br> 		
+  					
+
+  				Investment:<input type="range" min="0" max="300" value="0" id="salarySlide21">
+  						   <span id="currentValue21">0</span>
+						   <br>
+
+  				Interest: <input type="range" min="0" max="300" value="0" id="salarySlide22">
+  				  		  <span id="currentValue22">0</span>
+  						  <br>
+	</div>
+</div>	
+
+</body>
+</html>

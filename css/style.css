@@ -1,0 +1,240 @@
+
+
+#salary{
+	height:300px;
+	width: 20px;
+	background-color: orange;
+	position: absolute;
+	bottom: 5px
+}
+
+#investment{
+	height:300px;
+	width: 20px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px
+
+}
+
+#interest{
+	height:300px;
+	width: 20px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px
+}
+
+.col{
+	display: inline-block;
+	width: 100px;
+	height: 400px;
+	padding: 20px;
+	vertical-align: bottom;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.graph{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.input-bar{
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+}
+
+button{
+	height:15px;
+	width: 500px;
+	outline: 1px, solid;
+	outline-color: black
+}
+
+
+#salary2{
+	height:300px;
+	width: 20px;
+	background-color: orange;
+	position: absolute;
+	bottom: 5px
+}
+
+#investment2{
+	height:300px;
+	width: 20px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px
+
+}
+
+#interest2{
+	height:300px;
+	width: 20px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px
+}
+
+.graph2{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+
+#salary3{
+	height:150px;
+	width: 150px;
+	background-color: orange;
+	position: absolute;
+	bottom: 5px;
+	border-radius: 100%;
+	padding: 10px;
+}
+
+#investment3{
+	height:150px;
+	width: 150px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px;
+	border-radius: 100%;
+	padding: 10px;
+
+
+}
+
+#interest3{
+	height:150px;
+	width: 150px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px;
+	border-radius: 100%;
+	padding: 10px;
+
+}
+
+.graph3{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+#sustainability{
+	height:150px;
+	width: 20px;
+	background-color: orange;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#risk{
+	height:150px;
+	width: 20px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+
+
+}
+
+#return{
+	height:150px;
+	width: 20px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+
+}
+
+.packages{
+	width:90px;
+	height: 40px;
+	border: 1px solid black;
+}
+
+.graph4{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.descrip{
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+
+#sustainability2{
+	height:150px;
+	width: 20px;
+	background-color: orange;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#risk2{
+	height:150px;
+	width: 20px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+
+
+}
+
+#return2{
+	height:150px;
+	width: 20px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px;
+	padding: 10px;
+
+}
+
+
+.graph5{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.graph6{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+
+
+.graph7{
+	text-align: center;
+	margin: auto;
+	vertical-align: bottom;
+	position: relative;
+}
